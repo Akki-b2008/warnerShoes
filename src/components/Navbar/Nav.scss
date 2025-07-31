@@ -1,0 +1,26 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 clamp(0.5rem,2vw,1rem);
+    top: clamp(15px, 1vw, 30px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+
+    .nav_left {
+        width: clamp(50px, 3vw, 60px);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .nav_right {
+        a {
+            color: black;
+        }
+    }
+}
