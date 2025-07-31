@@ -1,19 +1,82 @@
-.product_showcase {
+.product_wrapper {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(148, 70, 10, 0.411);
+}
+
+.product_showcase {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
   justify-content: space-between;
-  font-family: "Joti One", sans-serif;
+  font-family: "Comfortaa", sans-serif;
+  gap: clamp(0.4rem, 1vw, 1rem);
+  color: rgb(43, 19, 1);
   padding: clamp(1rem, 2vw, 2rem) clamp(2rem, 2vw, 4rem);
 }
 .product_showcase .product_left {
+  width: 55%;
   display: flex;
   flex-direction: column;
-  gap: clamp(1rem, 1vw, 2rem);
+  justify-content: center;
+  gap: clamp(1rem, 2vw, 2rem);
 }
-.product_showcase .product_center {
-  width: 60%;
+.product_showcase .product_left h1 {
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 8px;
+  font-size: clamp(2.5rem, 6vw, 6rem);
+  line-height: clamp(50px, 5vw, 140px);
+}
+.product_showcase .product_left p {
+  font-size: clamp(1.4rem, 1vw, 1.8rem);
+}
+.product_showcase .product_left .sizes {
+  display: flex;
+  gap: 10px;
+}
+.product_showcase .product_left .sizes p {
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(43, 19, 1);
+}
+.product_showcase .product_left .add_to_cart_btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: clamp(1rem, 2vw, 1.2rem) clamp(1.2rem, 2vw, 2rem);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+  font-family: "Lexend", sans-serif;
+  background-color: rgb(43, 19, 1);
+}
+.product_showcase .product_right {
+  width: 40%;
   max-width: 800px;
+  border-radius: 18px;
+  background: radial-gradient(circle at center, rgb(77, 36, 2) 0%, rgb(43, 19, 1) 60%, rgb(20, 8, 1) 100%);
 }
-.product_showcase .product_center img {
+.product_showcase .product_right img {
   width: 100%;
+}
+@media (max-width: 575px) {
+  .product_showcase {
+    flex-direction: column-reverse;
+  }
+  .product_showcase .product_right {
+    width: 100%;
+  }
+  .product_showcase .product_left {
+    width: 100%;
+    align-items: center;
+  }
+  .product_showcase .product_left h1 {
+    font-family: "Mouse Memoirs", sans-serif;
+    word-spacing: 14px;
+    letter-spacing: 6px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=ProductShowcase.css.map */
