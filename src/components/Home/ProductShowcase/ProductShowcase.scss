@@ -1,0 +1,23 @@
+.product_showcase{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Joti One",sans-serif;
+    padding: clamp(1rem,2vw,2rem) clamp(2rem,2vw,4rem);
+
+
+    .product_left{
+        display: flex;
+        flex-direction: column;
+        gap: clamp(1rem,1vw,2rem);
+    }
+
+    .product_center{
+        width: 60%;
+        max-width: 800px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
