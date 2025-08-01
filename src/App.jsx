@@ -1,7 +1,7 @@
 import { useLocation } from "react-router";
 import ExpandableTabs from "./components/ExpandTabs/ExpandableTabs"
 import Nav from "./components/Navbar/Nav";
-import Mainroutes from "./routes/Mainroutes"
+import Mainroutes from "./routes/MainRoutes"
 
 const App = () => {
   const location = useLocation();
