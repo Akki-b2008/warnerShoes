@@ -1,0 +1,48 @@
+.brand_usp_section {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+.brand_usp_section .usp_heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #4e342e;
+  margin-bottom: 4rem;
+  font-family: "Joti One", serif;
+  letter-spacing: 1px;
+}
+.brand_usp_section .usp_cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.brand_usp_section .usp_card {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border: 1px solid rgba(78, 52, 46, 0.1);
+  border-radius: 1.5rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem 2rem;
+  max-width: 320px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.brand_usp_section .usp_card h3 {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4e342e;
+  font-family: "Poppins", sans-serif;
+}
+.brand_usp_section .usp_card p {
+  font-family: "Lexend", sans-serif;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #6d4c41;
+  line-height: 1.5;
+}
+.brand_usp_section .usp_card .usp_icon {
+  color: #4e342e;
+}/*# sourceMappingURL=BrandUSP.css.map */

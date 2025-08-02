@@ -81,7 +81,6 @@ const ProductShowcase = () => {
                 <motion.section
                     key={id}
                     className="product_showcase"
-                    whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     transition={{ type: "keyframes", stiffness: 200 }}
                 >
